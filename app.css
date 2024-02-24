@@ -1,0 +1,73 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: orange;
+    font-family: "poppins",sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;    
+}
+
+.logo a{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+li a{
+    color:white;
+    font-size: 18px;
+    margin-right: 25px;
+    #menu a:hover {
+        color:blue;
+        text-decoration: underline;
+    }
+}
+
+.Store{
+    background-color: grey;
+    color: orange;
+    padding:0 ;
+    margin-top: -10px;
+   text-align: center;
+    display: flex;
+   
+   
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 50px;
+    float: left;
+    margin-right:250px ;
+  }
+  .text h2{
+    padding-top: 50px;;
+  }
+.text p{
+padding-top: 40px;
+padding-left: -25px;
+margin-left: -35px;}
+img{
+   margin-top: 100px;
+    padding: 50px 25px 50px 0;
+    margin-left: 250px;
+    
+}
